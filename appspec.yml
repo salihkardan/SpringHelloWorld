@@ -1,5 +1,8 @@
 version: 0.0
 os: linux
+files:
+  - source: /target/hello-world-1.0-SNAPSHOT.jar
+    destination: /tmp/codedeploy-deployment-staging-area/
 hooks:
   BeforeInstall:
     - location: scripts/start.sh
