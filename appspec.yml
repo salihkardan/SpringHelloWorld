@@ -4,6 +4,9 @@ files:
   - source: target/hello-world-1.0-SNAPSHOT.jar
     destination: /tmp
 hooks:
+  ApplicationStop:
+    - location: scripts/stop.sh
+      timeout: 300
   ApplicationStart:
     - location: scripts/start.sh
       timeout: 300
