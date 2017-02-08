@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: ./hello-world-1.0-SNAPSHOT.jar
+  - source: target/hello-world-1.0-SNAPSHOT.jar
     destination: /tmp
