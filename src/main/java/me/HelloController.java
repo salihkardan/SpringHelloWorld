@@ -14,6 +14,6 @@ public class HelloController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello World Test Aws Code Pipeline!";
+        return "Hello World Test Aws Code Pipeline 2!";
     }
 }
